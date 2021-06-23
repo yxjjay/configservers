@@ -4,9 +4,9 @@ spring:
   application:
     name: CONFIGSERVER
   cloud:
-    consul:
-      host: localhost
-      port: 8500
+    #consul:
+      #host: localhost
+      #port: 8500
     config:
       server:
         git:
