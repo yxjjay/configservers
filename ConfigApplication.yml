@@ -1,0 +1,16 @@
+server:
+  port: 7001
+spring:
+  application:
+    name: CONFIGSERVER
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+    config:
+      server:
+        git:
+          uri: https://github.com/yxjjay/configservers.git
+          default-label: master
+  profiles:
+    active: BBB
