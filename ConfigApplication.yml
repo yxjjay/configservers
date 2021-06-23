@@ -2,7 +2,7 @@ server:
   port: 7002
 spring:
   application:
-    name: CONFIGSERVER
+    name: CONFIGCLIENT
   #cloud:
     #consul:
       #host: localhost
