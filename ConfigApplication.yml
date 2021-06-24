@@ -9,8 +9,3 @@ spring:
     password: 123
     port: 5672
     virtual-host: /ems
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "*"
