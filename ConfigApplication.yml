@@ -7,5 +7,5 @@ spring:
     host: 192.168.111.131
     username: ems
     password: 123
-    port: 5672
+    port: 1111
     virtual-host: /ems
